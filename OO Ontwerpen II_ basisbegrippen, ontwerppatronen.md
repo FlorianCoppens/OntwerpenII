@@ -1,5 +1,4 @@
 # OO Ontwerpen II: basisbegrippen, ontwerppatronen
-***
 ## Basiskennis
 **ontwerppatronen**
 * Abstractie
