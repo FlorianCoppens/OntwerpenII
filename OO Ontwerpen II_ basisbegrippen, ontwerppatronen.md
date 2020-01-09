@@ -9,6 +9,7 @@
 * Typing
 ## Abstractie
 Een abstractie toont de essentiële functies van een object, dit hangt af van het gezichtspunt van de observator.
+
 _Vb. een oma ziet haar kat anders dan de dierenarts_
 ## Encapsulatie
 Encapsulatie verbergt de geïmplementeerde details van een object. De gebruiker van een object is enkel geconfronteerd met de buitenkant van een object, dat is zijn gedrag, niet de bron van het gedrag. In ontwerpen moet de abstractie van een object elke beslissing over de implementatie voorgaan.
@@ -44,6 +45,7 @@ Een hiërarchische set van abstracties helpt om het domein beter te verstaan en 
 ### Deze kunnen we opdelen in: 
 **klasse-hiërarchie**
 SOORT VAN relatie (Overerving)
+
 **Object-hierarchie**
 ONDERDEEL VAN een relatie (compositie, aggreagatie)
 
