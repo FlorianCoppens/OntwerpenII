@@ -36,7 +36,5 @@ This text you see here is *actually* written in Markdown! To get a feel for Mark
 > De view is een composite van GUI-componenten (labels, knoppen, invoervlakken, etc.). De toplevelcomponent bevat andere componenten, die weer andere componenten bevatten en zo door tot je de leaf nodes krijgt.
 
 => voorbeeld vanaf slide 4-5
-```sh
-Last saved on: 28/12/2019 14:03
-```
+
 
