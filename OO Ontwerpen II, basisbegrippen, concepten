@@ -1,0 +1,69 @@
+# OO Ontwerpen II, basisbegrippen, concepten
+## basiskennis
+**concepten**
+* objecten: staat, gedrag & identiteit
+* relaties tussen objecten
+* klassen: innner-, outer (public interface)
+* klasserelaties: overerving, instanties, ...
+* klassen attributen/methoden/operaties
+
+## Objecten
+voorbeelden van objecten: *een raket, een kubus, een regenwolk, een donderwolk, ...*
+
+Een object voldoet minstens aan 1 van volgende eigenschappen: 
+* iets voelbaar of iets zichtbaar
+* iets dat intellectueel kan worden verstaan
+* iets waaraan gedacht kan worden of iets waar aan gewerkt kan worden
+
+Objecten kunnen iets simpel zijn (een naald, een lijn) maar kan ook iets zeer complex zijn (een chemisch bedrijf, een boekhoudkantoor, een auto) en complex gedrag hebben.
+
+Sommige objecten zijn voelbaar en hebben duidelijke grenzen, andere kunnen onzichtbaar zijn en geen duidelijke grenzen hebben (een meer, mist, een publiek).
+
+``Kleur, emoties & tijd zijn geen objecten``, maar kunnen gezien worden als eigenschappen van objecten!
+
+### Staat
+Een object heeft een staat. De staat bestaat uit alle (meestal statistic) eigenschappen van een object samen met de actuele waarde (meestal dynamisch) van al deze eigenschappen.
+Enkele voorbeelden:
+* een koffieautomaat bevat op een gegeven moment een bepaalde hoeveelheid koffie, water, bekers, suiker, ... en geld. Wanneer iemand een muntje in de automaat steekt, zal het het ingevoerde bedrag onthouden. Wanneer de klant een keuze maakt voor een bepaald type koffie en het bedrag klopt niet, zal de machine niets doen
+* een **statische eigenschap** van de koffieautomaat is dat het geld ontvangt.
+* het bedrag van het ingevoerde geld op een gegeven moment is de **dynamische** waarde van die eigenschap.
+
+De staat van een object heeft invloed op het ``GEDRAG``!
+### Gedrag
+een object heeft **gedrag**. Het reageert op vragen en stelt vragen aan andere objecten. Het gedrag van een object is volledig gedefinieerd bij z'n acties en reacties, die beïnvloed zijn door de staat van een object.
+
+Een operatie is een actie die door een object of ander object wordt uitgevoerd. Een andere manier is dat een object een bericht zend naar een ander object). De 2 expressies zijn equivalent
+
+Een **methode** is de implementatie van een operatie.
+
+De actuele inhoud van een operatie (de implementatie van de operatie of de methode) hangt af van het ontvangen object -> `POLYMORFISME`
+### identiteit
+elk object heeft een unieke identiteit. Zelfs als 2 objecten "identiek" zijn. Op de basis van de eigenschappen onmogelijk een verschil te zien. Toch blijven ze twee verschillende objecten.
+
+### relaties tussen objecten
+Objecten op zich zijn compleet oninteressant. Samenwerkende objecten definiëren het globale gedrag van het systeem. Objecten rekenen op elkaar om diensten af te leveren.
+*Zie voorbeeld met de lift*
+
+Om te communiceren met elk verschillend object moeten ze elkaar kennen. Dit kunnen we tonen via een UML diagram die de relaties tussen verschillende objecten weergeeft.
+
+Soorten relaties:
+* aggregatie (wanneer een klasse gebruikt maakt van de andere klasse, maar nog steeds kan bestaan buiten de klasse) _vb. een motor van een auto_
+* compositie (object bestaat eruit, als een object vernietigt is, is al het gedrag weg)  _een gebouw bestaat uit een kamer_
+
+Compostie en aggregatie geven je de mogelijkheid om gedrag van een familie of andere klassen te gebruiken en het gedrag veranderen at runtime.
+
+### klassen: inner, outer (public interface)
+de **buitenkant (outer)** is de inteface met de buitenstaande wereld (het publieke gedrag), is eerst gemodelleerd.
+
+de **Binnenkant (inside)** verbergt de implementatie: eigenschappen (attributen) en gedrag (gecodeerd in methodes) (de private implementatie), komt later
+
+### klasserelaties: overerving
+overerving -> is-een-relatie (generalisatie, specialisatie)
+associatie -> heeft een (specialekes: aggregatie, compositie)
+
+cardinaliteiten:
+* 1-1
+* (*) - 1
+* 
+
+
