@@ -8,7 +8,7 @@
 * Modulariteit
 * Hiërarchie
 * Typing
-### Abstractie
+## Abstractie
 Een abstractie toont de essentiële functies van een object, dit hangt af van het gezichtspunt van de observator.
 _Vb. een oma ziet haar kat anders dan de dierenarts_
 ## Encapsulatie
@@ -35,7 +35,7 @@ _Wanneer het object in je applicatie elk een specifieke opdracht te doen hebben,
 |loosely coupled objecten kunnen gebruikt worden van een andere applicatie en gemakkelijk hergebruikt worden in een andere, omdat ze niet verbonden zijn aan code van een andere object.|
 |Loosely coupled applicaties zijn vaak meer flexibel en gemakkelijk te wijzigen.|
 
-## Modulatiteit
+## Modulariteit
 Wanneer men een complex systeem maakt is het gemakkelijk om onderelen (componenten, modules) te gebruiken.
 
 Een module (zoals een klasse) verpergt de geïmplementeerde details. De gebruiker wordt enkel geconfronteerd met de interface van het onderdeel (component, module).
